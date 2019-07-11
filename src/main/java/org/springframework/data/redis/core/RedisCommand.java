@@ -156,7 +156,7 @@ public enum RedisCommand {
 	SCRIPT_LOAD("rw", 1, 1), //
 	SDIFF("r", 1), //
 	SDIFFSTORE("rw", 2), //
-	SELECT("rw", 0, 0), //
+	SELECT("rw", 1, 1), //
 	SET("w", 2), //
 	SETBIT("rw", 3, 3), //
 	SETEX("w", 3, 3), //
